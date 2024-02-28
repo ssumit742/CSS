@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        border: 2px solid black;
+        padding: 10px;
+        background-color: blue;
+        display: block;
+    }
+    .box_{
+        /* in display:inline we can't set height and width easily thats why we use inline-block property.*/
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        border: 2px solid black;
+        padding: 10px;
+        background-color: blue;
+        display: inline-block;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <div id="box_1" class="box">box1</div>
+    <div id="box_2" class="box">box2</div>
+    <div class="box_">box3</div>
+    <div class="box_">box4</div>
+</body>
+</html>

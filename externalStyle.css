@@ -1,0 +1,27 @@
+h1{
+    color:yellow;
+}
+p{
+    color:violet;
+}
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+a{
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+div{
+    color: blue;
+}
+span{
+    color: crimson;
+}

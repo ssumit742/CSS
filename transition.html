@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button_1{
+            height: 40px;
+            width: 100px;
+            background-color: cadetblue;
+            border: 2px solid;
+            border-radius: 10px;
+            margin-left: 400px;
+            cursor: pointer;
+
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+
+                    /* short-hand property:  transition: all 1s ease-in-out 0s; */
+
+        }
+        .button_1:hover{
+            background-color: chartreuse;
+            height: 50px;
+            width: 120px;
+        }
+        .button_1:active{
+            background-color: red;
+            height: 50px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <button class="button_1"> click me </button>
+</body>
+</html>

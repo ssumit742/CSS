@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: tomato;
+            position: relative;
+            top: 10px;
+            left: 20px;
+
+            transition: all 2s ease-in-out ;
+           
+        }
+        .box:hover{
+            transform: rotate(45deg);
+            /* we can also do rotatex and rotatey (x-axis, y-axis) by default it roate in z-axis */
+        }
+        .scale_1{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: tomato;
+            position: relative;
+            top: 10px;
+            left: 20px;
+        
+
+        }
+        .scale_1:hover{
+            transform: scale(2);
+                       /* scale(2 ) means twice the size of element */
+        }
+        .translate_1{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: tomato;
+            position: relative;
+            top: 10px;
+            left: 20px;
+        }
+        .translate_1:hover{
+             transform: translate(100px, 50px);  /* 100px in x-aixs and 50px in y-axis */
+        }
+        .skew{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: tomato;
+            position: relative;
+            top: 10px;
+            left: 20px;
+        }
+        .skew:hover{
+            transform: skew(45deg);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">Rotate</div><br><br>
+    <div class="scale_1">Scale</div><br><br>
+    <div class="translate_1">Translate</div><br><br>
+    <div class="skew"> Skew</div>
+</body>
+</html>
